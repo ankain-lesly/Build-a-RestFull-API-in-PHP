@@ -60,6 +60,27 @@ use App\Config\CustomErrorValidator;
 ### Routing
 Object Oriented Programming provides a variety of methods and approach to resolve a coding procedue. Making use of PHP associative arrays and call_user custom fuctions make this process quite interesting..
 
+```php
+
+// Sample Rout Display
+$routes = array(
+
+// Products
+	   "GET@/api/products/books"	=> 	[ProductController::class, 'index'],
+	"DELETE@/api/products/books" 	=> 	[ProductController::class, 'delete'],	// delete_key, auth_key
+
+	  "POST@/api/category/books"	=> 	[CategoryController::class, 'update'],	// key, name, author, is_read
+
+     "POST@/api/create/category"	=> 	[CategoryController::class, 'create'],	// name, author
+
+// User
+         "POST@/api/user/signup"	=> 	[UserController::class, 'signup'],	    // signup user data
+
+          "POST@/api/user/login"	=> 	[UserController::class, 'login'],		// login user data
+          /* ... */
+);
+```
+
 
 Here we get a route mapped to a controller class pointing to a specific method in execution.
 
