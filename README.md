@@ -6,7 +6,7 @@ It serves data in a Javascript Object Notation (JSON) format which could easily 
 ## Table of contents
 
 - [Overview](#overview)
-  - [Screenshot](#screenshot)
+  - [Screenshots](#screenshots)
   - [Routing](#Routing)
   - [Error Handling](#error-handling)
   - [User Authentication](#user-authentication)
@@ -93,3 +93,6 @@ Development still in progress... I will be updating promply
 - Linkedin - [@ankain-lesly](#)
 
 - Whatsapp - +237 670710480
+
+
+Complete rest API using pure objecti oriented PHP w
