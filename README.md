@@ -1,7 +1,12 @@
-# RESTFULL API WITH PHP & ROUTING
+# Build a RestFull API With PHP
 
-This is working standard PHP restfull API setup application with routing system.
-It serves data in a Javascript Object Notation (JSON) format which could easily be integrated in any ...
+This is working standard PHP restfull API setup application with routing system and user Authentication
+
+
+Frontend --> React JS
+
+
+
 
 ## Table of contents
 
